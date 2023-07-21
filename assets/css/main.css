@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Oswald';
+    font-display: swap;
+    src: url('~/assets/fonts/Oswald-Regular.ttf'), url('~/assets/fonts/Oswald-Light.ttf'), url('~/assets/fonts/Oswald-Medium.ttf'), url('~/assets/fonts/Oswald-SemiBold.ttf'), url('~/assets/fonts/Oswald-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-display: swap;
+    src: url('~/assets/fonts/Montserrat-Regular.ttf'), url('~/assets/fonts/Montserrat-Light.ttf'), url('~/assets/fonts/Montserrat-Medium.ttf'), url('~/assets/fonts/Montserrat-SemiBold.ttf'), url('~/assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Tektur';
+    font-display: swap;
+    src: url('~/assets/fonts/Tektur-Regular.ttf'), url('~/assets/fonts/Tektur-Medium.ttf'), url('~/assets/fonts/Tektur-SemiBold.ttf'), url('~/assets/fonts/Tektur-Bold.ttf');
+}
+
+@layer base {
+    html {
+        font-family: 'Montserrat';
+    }
+}
